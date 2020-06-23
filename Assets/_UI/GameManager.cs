@@ -21,6 +21,8 @@ public class GameManager : MonoBehaviour
     
     void Update()
     {
+
+
         if(CurrentState == GameState.GameIdle && Input.GetKeyDown(KeyCode.Return))
         {            
             CurrentState = GameState.GameStart;
