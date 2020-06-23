@@ -19,7 +19,12 @@ public class Obstacles : MonoBehaviour
 
         if(transform.position.z <= -8)
         {
+          
+            GameManager.Score++;
             Destroy(gameObject);
+            HUD.HUDManager.UpdateScore();
+
+
         }
     }
 }

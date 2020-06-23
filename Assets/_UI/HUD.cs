@@ -9,7 +9,7 @@ public class HUD : MonoBehaviour
     [SerializeField] private Text Txt_Score = null;
     [SerializeField] private Image Image_Lives = null;
     [SerializeField] private Text Txt_Message = null;
- 
+
     void Start()
     {
         HUDManager = this;
